@@ -117,7 +117,7 @@ export default function Home() {
             <Vol_progressBar percentage={progress} />
             <div className='text-center flex justify-center items-center'>
               <div>
-                <h1 className="font-extrabold text-6xl"><span className="text-transparent bg-clip-text  bg-gradient-to-r to-indigo-600 from-sky-400">{data?.SOC}</span> <span className='text-lg text-gray-500'> %</span>  </h1>
+                <h1 className="font-extrabold text-6xl"><span className="text-transparent bg-clip-text  bg-gradient-to-r to-indigo-600 from-sky-400">{data?.SOC} asda</span> <span className='text-lg text-gray-500'> %</span>  </h1>
                 <p className=" text-lg text-gray-500">Percentage</p>
               </div>
             </div>
